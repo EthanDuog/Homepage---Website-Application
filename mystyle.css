@@ -1,0 +1,449 @@
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(5,12,32,0.35), rgba(5,12,32,0.35)), url(image/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 3% 4%;
+}
+
+nav img{
+    display: flex;
+    padding: 3% 0%;
+    width: 100px;
+}
+
+.nav-links a{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    left: -45%;
+    text-decoration: none;
+}
+.nav-links a::after{
+    content:"";
+    width: 100%;
+    height: 2px;
+    background: #191970;
+    display: block;
+    transition: 0.7s;
+}
+.nav-links a:hover::after{
+    width: 0%;
+}
+
+
+.card{
+    width: 80%;
+    height: 85%;
+    top: 2px;
+    left: 70px;
+}
+
+.header2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(5,12,32,0.35), rgba(5,12,32,0.35)), url(image/pic2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header3{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(5,12,32,0.35), rgba(5,12,32,0.35)), url(image/wallbg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header4{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(5,12,32,0.35), rgba(5,12,32,0.35)), url(image/thailandbg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header5{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(5,12,32,0.35), rgba(5,12,32,0.35)), url(image/torontobgg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.slider {
+  width: 500px;
+  height: 700px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+.image-container {
+  width: 4500px;
+  background-color: black;
+  height: 300px;
+  margin-top: 45%;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+
+}
+.slide {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+
+}
+#slide-1:target ~ .image-container {
+  left: 0px;
+}
+#slide-2:target ~ .image-container {
+  left: -500px;
+}
+#slide-3:target ~ .image-container {
+  left: -1000px;
+}
+#slide-4:target ~ .image-container {
+  left: -1500px;
+}
+#slide-5:target ~ .image-container {
+  left: -2000px;
+}
+#slide-6:target ~ .image-container {
+  left: -2500px;
+}
+#slide-7:target ~ .image-container {
+  left: -3000px;
+}
+#slide-8:target ~ .image-container {
+  left: -3500px;
+}
+#slide-9:target ~ .image-container {
+  left: -4000px;
+}
+
+
+.buttons {
+  position: relative;
+  top: -20px;
+}
+.buttons a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.slidera {
+  width: 500px;
+  height: 700px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+.image-containera {
+  width: 4500px;
+  background-color: black;
+  height: 300px;
+  margin-top: 45%;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+
+}
+.slidea {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+#slide-1a:target ~ .image-containera {
+  left: 0px;
+}
+#slide-2a:target ~ .image-containera {
+  left: -500px;
+}
+#slide-3a:target ~ .image-containera {
+  left: -1000px;
+}
+#slide-4a:target ~ .image-containera {
+  left: -1500px;
+}
+#slide-5a:target ~ .image-containera {
+  left: -2000px;
+}
+#slide-6a:target ~ .image-containera {
+  left: -2500px;
+}
+#slide-7a:target ~ .image-containera {
+  left: -3000px;
+}
+#slide-8a:target ~ .image-containera {
+  left: -3500px;
+}
+#slide-9a:target ~ .image-containera {
+  left: -4000px;
+}
+
+
+.buttonsa {
+  position: relative;
+  top: -20px;
+}
+.buttonsa a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+
+.sliderab {
+  width: 500px;
+  height: 700px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+.image-containerab {
+  width: 4500px;
+  background-color: black;
+  height: 300px;
+  margin-top: 45%;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+}
+.slideab {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+#slide-1ab:target ~ .image-containerab {
+  left: 0px;
+}
+#slide-2ab:target ~ .image-containerab {
+  left: -500px;
+}
+#slide-3ab:target ~ .image-containerab {
+  left: -1000px;
+}
+#slide-4ab:target ~ .image-containerab {
+  left: -1500px;
+}
+#slide-5ab:target ~ .image-containerab {
+  left: -2000px;
+}
+#slide-6ab:target ~ .image-containerab {
+  left: -2500px;
+}
+#slide-7ab:target ~ .image-containerab {
+  left: -3000px;
+}
+#slide-8ab:target ~ .image-containerab {
+  left: -3500px;
+}
+#slide-9ab:target ~ .image-containerab {
+  left: -4000px;
+}
+
+
+.buttonsab {
+  position: relative;
+  top: -20px;
+}
+.buttonsab a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+
+
+.slidera {
+  width: 500px;
+  height: 700px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+.image-containera {
+  width: 4500px;
+  background-color: black;
+  height: 300px;
+  margin-top: 45%;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+
+}
+.slidea {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+#slide-1a:target ~ .image-containera {
+  left: 0px;
+}
+#slide-2a:target ~ .image-containera {
+  left: -500px;
+}
+#slide-3a:target ~ .image-containera {
+  left: -1000px;
+}
+#slide-4a:target ~ .image-containera {
+  left: -1500px;
+}
+#slide-5a:target ~ .image-containera {
+  left: -2000px;
+}
+#slide-6a:target ~ .image-containera {
+  left: -2500px;
+}
+#slide-7a:target ~ .image-containera {
+  left: -3000px;
+}
+#slide-8a:target ~ .image-containera {
+  left: -3500px;
+}
+#slide-9a:target ~ .image-containera {
+  left: -4000px;
+}
+
+
+.buttonsa {
+  position: relative;
+  top: -20px;
+}
+.buttonsa a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+
+.sliderabc {
+  width: 500px;
+  height: 700px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.image-containerabc {
+  width: 4500px;
+  background-color: black;
+  height: 300px;
+  margin-top: 45%;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+
+}
+.slideabc {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+#slide-1abc:target ~ .image-containerabc {
+  left: 0px;
+}
+#slide-2abc:target ~ .image-containerabc {
+  left: -500px;
+}
+#slide-3abc:target ~ .image-containerabc {
+  left: -1000px;
+}
+#slide-4abc:target ~ .image-containerabc {
+  left: -1500px;
+}
+#slide-5abc:target ~ .image-containerabc {
+  left: -2000px;
+}
+#slide-6abc:target ~ .image-containerabc {
+  left: -2500px;
+}
+
+
+.buttonsabc {
+  position: relative;
+  top: -20px;
+}
+.buttonsabc a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: white;
+}
+
